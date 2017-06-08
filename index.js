@@ -19,11 +19,15 @@ exports.cache = (key, seconds, callback) => {
         return resolve(reply);
       }
 
-      const value = await callback();
+      try {
+        const value = await callback();
 
-      client.set(key, value, 'EX', seconds);
+        client.set(key, value, 'EX', seconds);
 
-      resolve(value);
+        resolve(value);
+      } catch (err) {
+        reject(err);
+      }
     });
   });
 }
