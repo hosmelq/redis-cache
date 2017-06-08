@@ -1,0 +1,33 @@
+{
+  "name": "r-cache",
+  "version": "0.1.0",
+  "description": "Minimalist cache function for redis",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdify/redis-cache.git"
+  },
+  "keywords": [
+    "redis",
+    "cache",
+    "promise",
+    "promises"
+  ],
+  "author": "Hosmel Quintana <hosmelq@gmail.com> (http://hosmelq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerdify/redis-cache/issues"
+  },
+  "homepage": "https://github.com/nerdify/redis-cache#readme",
+  "dependencies": {
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.1.1",
+    "prettier": "^1.4.2",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": "prettier"
+  }
+}
