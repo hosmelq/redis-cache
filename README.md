@@ -2,6 +2,8 @@
 
 > Minimalist cache function for redis
 
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
 Sometimes you may wish to retrieve an item from the cache, but also store a default value if the requested item doesn't exist.
 
 [node_redis](https://github.com/NodeRedis/node_redis) is used for connections.
