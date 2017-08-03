@@ -20,14 +20,9 @@
   },
   "homepage": "https://github.com/nerdify/redis-cache#readme",
   "dependencies": {
-    "redis": "^2.7.1"
+    "redis": "2.7.1"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^2.1.1",
-    "prettier": "^1.4.2",
     "xo": "^0.18.2"
-  },
-  "xo": {
-    "extends": "prettier"
   }
 }
